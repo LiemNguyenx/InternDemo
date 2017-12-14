@@ -1,0 +1,9 @@
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\DataAccess.dll.config
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\DataAccess.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\DataAccess.pdb
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\EntityFramework.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\EntityFramework.xml
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\obj\Debug\DataAccess.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\DataAccess\obj\Debug\DataAccess.pdb

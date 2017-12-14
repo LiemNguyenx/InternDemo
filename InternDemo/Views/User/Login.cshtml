@@ -1,0 +1,43 @@
+﻿
+@model Service.ViewModels.LoginViewModel
+<!doctype html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>index</title>
+    <link rel="stylesheet" href="~/asset/css/bootstrap.css" />
+</head>
+<body>
+    <img src="~/asset/images/logo.png" style="margin: 0 auto; display:block">
+    <div id="border-out">
+        <div style="margin: 0 10% 5% 10%">
+            <br>
+            <h6>web order service</h6>
+            <h6>login authentication <a href="#">for agents</a></h6><br>
+            <div class="text-size">login authenticaiton is required to use this system.</div>
+            <div class="text-size">please anter your id and password and login.</div><br>
+            @using (Html.BeginForm("Login", "User", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.TextBoxFor(model=>model.login_id, new { @class= "form-control",@autofocus="autofocus", @placeholder = "enter email" })
+                    <!--<input type="email" class="form-control" placeholder="enter email">-->
+                </div>
+                <div class="form-group">
+                    @Html.PasswordFor(model => model.login_pass,new { @class = "form-control", @placeholder = "password" })
+                    <!--<input type="password" class="form-control" id="exampleinputpassword1" placeholder="password">-->
+                </div>
+                <div class="text-size" style="text-align:left">if you forget your password. we will re-issue your temporary password.</div>
+                <div class="text-size" style="text-align:left">
+                        <a href="#">please click here and</a>
+                        enter the registered e-mail. when you can confirm the system, send a temporary password
+                        to the entered mail address.
+                </div><br>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+            }
+        </div>
+    </div>
+</body>
+</html>
+

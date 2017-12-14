@@ -1,0 +1,12 @@
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\Service.dll.config
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\Service.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\Service.pdb
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\DataAccess.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\EntityFramework.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\DataAccess.pdb
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\EntityFramework.xml
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\obj\Debug\Service.dll
+c:\users\liemn\documents\visual studio 2015\Projects\InternDemo\Service\obj\Debug\Service.pdb
