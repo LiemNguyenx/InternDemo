@@ -35,6 +35,7 @@ namespace Service.Dao
         public void updateDateLoginError(string mail, DateTime date)
         {
             var user = db.mst_user.SingleOrDefault(x => x.mail == mail);
+            var dd = date;
             user.date_login_error = date;
             db.SaveChanges();
         }
@@ -42,15 +43,15 @@ namespace Service.Dao
         {
             var user = db.mst_user.SingleOrDefault(x => x.mail == mail);
             bool checktime = false;
-            var nowsub30 = DateTime.Now.AddMinutes(-getSystemConfigByID(3));
-
-            if (user.date_login_error == null || (user.date_login_error != null && nowsub30 > user.date_login_error))
+            var nowsub = DateTime.Now.AddMinutes(-getSystemConfigByID(3));
+            if (user.date_login_error == null || (user.date_login_error != null && nowsub > user.date_login_error))
             {
                 checktime = true;
             }
-            return (user.dest_flg == false && user.mst_customer.dest_flg == false &&
+            var rs=  (user.dest_flg == false && user.mst_customer.dest_flg == false &&
                 (user.cnt_login_error < getSystemConfigByID(2) || checktime) && 
                 (user.code_cst == user.mst_customer.code_cst)) ? true : false;
+            return rs;
         }
         public int getSystemConfigByID(int id)
         {
@@ -61,6 +62,10 @@ namespace Service.Dao
             mst_user user = (from mst_user in db.mst_user where mst_user.mail == mail select mst_user).Single();
             user.loginkey = loginkey;
             db.SaveChanges();
+        }
+        public void ChangePassword()
+        {
+
         }
         public int login(string login_id, string login_pass)
         {
@@ -73,6 +78,7 @@ namespace Service.Dao
                 return 2;
             }else if(findUser.pass_login != login_pass)
             {
+                var dd = findUser.pass_login;
                 return 3;
             }
             else if (findUser.code_cst == findUser.mst_customer.code_cst && findUser.dest_flg == false 

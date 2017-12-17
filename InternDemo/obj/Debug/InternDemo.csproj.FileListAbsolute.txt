@@ -1,4 +1,3 @@
-C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\obj\Debug\InternDemo.csprojResolveAssemblyReference.cache
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\ApplicationInsights.config
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\roslyn\csc.exe
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -50,5 +49,6 @@ C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\S
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\System.Web.Webpages.Razor.xml
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\System.Web.Helpers.xml
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\bin\System.Web.Mvc.xml
+C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\obj\Debug\InternDemo.csprojResolveAssemblyReference.cache
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\obj\Debug\InternDemo.dll
 C:\Users\liemn\documents\visual studio 2015\Projects\InternDemo\InternDemo\obj\Debug\InternDemo.pdb
